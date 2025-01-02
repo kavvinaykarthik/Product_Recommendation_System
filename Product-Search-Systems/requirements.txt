@@ -1,0 +1,7 @@
+pandas
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+streamlit
+Pillow
+requests
