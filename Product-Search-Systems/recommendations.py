@@ -7,7 +7,7 @@ import requests
 from io import BytesIO
 
 # Load and preprocess data
-data = pd.read_csv(r"C:\Users\tejva\PycharmProjects\pythonProject\Amazon-Products.csv")
+data = pd.read_csv(r"Product-Search-Systems/review/Amazon-Products-1.csv")
 
 # Fill NaN values in 'ratings' and 'no_of_ratings' columns with zeros
 data['ratings'].fillna(0, inplace=True)
